@@ -1,3 +1,14 @@
+/* * {
+    outline:3px solid red;
+} */
+.background {
+    background-color: #aaacaf;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,9 +22,29 @@ nav {
     background-color: black;
     text-align: center;
 }
-ul li {
+li {
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;   
+}
+ul {
     list-style-type: none;
+}
+h2 {
+    color:#0040df;
+}
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.bullet li {
+    color: rgb(10, 9, 9);
+    padding: 10px 20px;  
+}
+footer {
+    text-align: center;
+    background-color: black;
     color: white;
-    display: inline-block;
-    
+    padding: 5px;
 }

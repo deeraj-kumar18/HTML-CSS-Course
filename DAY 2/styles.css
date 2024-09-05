@@ -1,9 +1,7 @@
 /* * {
     outline:3px solid red;
 } */
-.background {
-    background-color: #e0e7f1;
-}
+
 .center{
     display: flex;
     align-items: center;
@@ -29,18 +27,21 @@ nav li {
         color: white;
         display: inline-block;
         padding: 10px 20px;   
+
 }
 nav ul {
     list-style-type: none;
+    
 }
 h2 {
     color:#0040df;
 }
 .card {
     background-color: white;
-    padding: 15px;
-    margin: 15px;
+    padding: 20px;
+    margin: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
 }
 .bullet li {
     color: rgb(10, 9, 9);
@@ -53,3 +54,12 @@ footer {
     color: white;
     padding: 5px;
 }
+a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+li:hover {
+    background-color: rgb(91, 91, 90);
+  }

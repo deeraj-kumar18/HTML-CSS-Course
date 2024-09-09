@@ -1,7 +1,4 @@
 /* Global styles */
-* {
-    outline: 3px solid red; /* Optional for debugging */
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }

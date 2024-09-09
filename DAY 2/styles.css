@@ -10,6 +10,43 @@
 img {
     border-radius: 4px;
 }
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text h1{
+    color :white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    background-color: #3009be;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #341b75;
+    color: white;
+  }
+  
 body {
     font-family: Arial, Helvetica, sans-serif;
 }

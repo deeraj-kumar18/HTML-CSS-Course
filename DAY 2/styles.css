@@ -64,7 +64,9 @@ nav li {
         color: white;
         display: inline-block;
         padding: 10px 20px;   
-
+}
+a{
+    text-decoration: none;
 }
 .b1 {
     background-color: #ebebeb;
@@ -115,4 +117,44 @@ nav li:hover {
     background-color: rgb(91, 91, 90);
   }
 
-  
+  .hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.hex {
+    width: 150px;
+    height: 86.6px; /* Hex height is 1.732 * side length / 2 */
+    background-color:gainsboro;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding:15px;
+}
+
+.hex:hover {
+    background-color:yellow;
+}
+
+.hex-content {
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+#hex1{
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+
+#Contact a{
+    color: black;
+}

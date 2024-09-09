@@ -161,3 +161,30 @@ nav li:hover {
     display: block;
     margin:0 auto;  /* 0 for vertical , auto for horizontal margin */
 }
+
+#about p{
+    text-align: center;
+}
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #1DA1F2; /* LinkedIn blue as hover effect */
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

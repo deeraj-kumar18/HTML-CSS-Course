@@ -264,12 +264,12 @@ img {
 
 .slide:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(6, 2, 2, 0.838)),url('classroom.jpeg');
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 .slide:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(6, 2, 2, 0.838)),url('graduation.jpeg');
-    animation-delay: 10s;
+    animation-delay: 6s;
 }
 
 @keyframes slideAnimation {

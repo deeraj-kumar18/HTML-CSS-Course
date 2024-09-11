@@ -252,7 +252,7 @@ img {
     align-items: center;
     opacity: 0;
     transform: translateX(100%);
-    animation: slideAnimation 12s infinite;
+    animation: slideAnimation 10s infinite;
 }
 
 .slide:nth-child(1) {
